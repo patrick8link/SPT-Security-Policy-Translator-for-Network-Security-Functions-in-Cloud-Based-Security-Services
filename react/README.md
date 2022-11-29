@@ -1,3 +1,22 @@
+# Webserver for I2NSF Translator
+
+To run this, make sure to install Node JS.
+Follow the following guideline:
+```
+$ cd react
+$ npm install
+# IF npm install not working, remove the node_modules directory and redo "npm install"
+
+$ npm start
+```
+
+Connect to http://localhost:3000 to access the website
+
+The "Registration" can be used to register User, Device, Location, and URL Groups for I2NSF User to the MongoDB
+The "Configuration" can be used to get the translation result with policy provisioning.
+
+Read the following information if you are unfamiliar with React App:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
